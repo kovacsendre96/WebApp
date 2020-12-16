@@ -1,0 +1,145 @@
+/* Components.css
+
+    Content:
+
+    Introduction: This file describe the components that make up the page. From internal layout to colors etc..
+
+    
+        1. Content
+            1.1. Content left
+            1.2. Content right
+                2.2.1. Input and design include the hoover effects.
+                2.2.2. Subscribe button design.
+        2. Footer
+*/
+
+
+
+        /* 1.1. Content left */
+
+.content__left__logo{
+
+    margin: 0.9375rem 0rem 0rem 1.875rem;
+}
+.content__left{
+    background-color:#6200EA ;
+}
+
+.content__right{
+    background: transparent;
+    background-image: url(/assets/bailey-zindel-396398-unsplash.jpg);
+    background-size: cover;
+    
+    
+    
+    
+}
+
+.content__left__wrapper{
+    width: 540px;
+    height: 360px;
+    margin-top: 186.8px;
+    color: #ffffff;
+    
+}
+
+.content__right__wrapper{
+    background-color: #ffffff;
+    width: 540px;
+    height: 540px;
+    margin-top: 130px;
+    
+   
+}
+
+
+        /* 1.1. Content right */
+
+
+.content__right__title{
+ padding:60px 60px 0 60px ;
+}
+
+.content__right__input{
+    width: 420px;
+    height: 50px;
+    margin: 0 60px 15px 60px ;
+}
+
+
+
+.content__right__input{
+    background-color: #F4F3F5;
+    outline: none;
+    border: 0;
+    
+}
+
+.content__right__input::placeholder{
+    padding-left: 1.5rem;
+    color: #211138;
+    opacity: 25%;
+}
+
+.content__right__input:focus{
+    border-bottom: 0.1875rem solid #6200EA;
+}
+
+.fas{
+    margin-right: 2.5rem;
+}
+
+.content__right__forget{
+    margin-right: 5rem;
+    display: block;
+    font-size: 0.75rem;
+    text-align: right;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    line-height: 0.9375rem;
+    
+    
+}
+
+.button{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1.875rem 3.75rem 0.9375rem 3.75rem;
+    display: block;
+    width: 26.25rem;
+    height: 3.125rem;
+    border: 2px solid #6200EA;
+    border-radius: 24px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+}
+
+
+.button--purple{
+    color:#ffffff;
+    background-color: #6200EA;
+    border: 2px;
+
+}
+
+.button--white{
+    color: #6200EA;
+}
+
+
+
+        /* 2.Footer */
+
+.footer{
+    height: 6.25rem;
+    text-align: center;
+    background-color: #211138;
+    color: #b2acba;
+    padding-top: 43px;
+    letter-spacing: 0.15rem;
+}
+
+.footer__span{
+    color: #6200EA;
+}
